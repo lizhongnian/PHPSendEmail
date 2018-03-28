@@ -70,8 +70,8 @@ class Email
 
 ### 4、发送邮件，调用邮件发送类
 ```php
-$title = "测试邮件发送功能";
-$content = "脚踏实地，坚持学习！";
+$title = "定时学习提醒";
+$content = "";
 $to = "zqunor@foxmail.com";
 
 $res = Email::sendMail($title, $content, $to);

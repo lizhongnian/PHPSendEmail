@@ -14,7 +14,7 @@ class Email
         $mail->From = 'Muse_girlo@163.com';    //发送者的邮件地址
         $mail->FromName = 'Muse_girlo';            //发送邮件的用户昵称
         $mail->Username = 'Muse_girlo';        //登录到邮箱的用户名
-        $mail->Password = 'zq924872405';        //第三方登录的授权码，在邮箱里面设置
+        $mail->Password = 'youpassword';        //第三方登录的授权码，在邮箱里面设置
         //编辑发送的邮件内容
         $mail->IsHTML(true);            //发送的内容使用html编写
         $mail->CharSet = 'utf-8';                //设置发送内容的编码
